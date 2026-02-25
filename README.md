@@ -1,79 +1,94 @@
-# ✈️ Travel Planner - Back End
-
-Backend de uma aplicação para organização de viagens, com funcionalidades focadas em criação de roteiros, convites e atividades relacionadas a cada viagem.
-
----
-
-## 🎯 Propósito do Projeto
-
-O projeto tem como objetivo permitir que usuários:
-
-- Criem uma nova viagem
-- Enviem convites para participantes da mesma viagem
-- Realizem confirmações via e-mail
-- Criem atividades vinculadas a cada viagem
-
----
-
-## 🧪 Tecnologias e Ferramentas Utilizadas
-
 <div align="center">
-  <img src="./image_for_readme.png" alt="Tecnologias utilizadas" width="800px">
+<p>✈️ Travel Planner - Back End</p>
 </div>
 
 <br>
 
-- 🐍 **Python** como linguagem principal  
-- 🌐 **Flask** como framework web  
-- 🗃️ **SQLite** como banco de dados  
-- ✅ **Pytest** como biblioteca de testes  
+Back end for a travel organization application, featuring tools focused on creating itineraries, managing invitations, and tracking activities related to each trip.
+🎯 Project Purpose
 
----
+The goal of this project is to allow users to:
 
-## 🚀 Como executar
+    Create new trips
 
-1. Clone este repositório:
-```bash
+    Send invitations to participants of the same trip
+
+    Perform email-based confirmations
+
+    Create activities linked to each trip
+
+<br>
+
+🧪 Technologies and Tools Used
+
+<br>
+
+    🐍 Python as the primary language
+
+    🌐 Flask as the web framework
+
+    🗃️ SQLite as the database
+
+    ✅ Pytest as the testing library
+
+<br>
+
+🚀 How to Run
+
+<br>
+
+    Clone this repository:
+
+Bash
+
 git clone https://github.com/BrunOliveiraCA/travel_planner.git
-```
 
-2. Navegue até o diretório do projeto:
-```bash
+    Navigate to the project directory:
+
+Bash
+
 cd travel_planner
-```
 
-3. Crie e ative um ambiente virtual:
-```bash
+    Create and activate a virtual environment:
+
+Bash
+
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
-```
 
-4. Instale as dependências:
-```bash
+    Install the dependencies:
+
+Bash
+
 pip install -r requirements.txt
-```
 
-5. Execute a aplicação:
-```bash
+    Run the application:
+
+Bash
+
 python app.py
-```
-<br>
-
-## 🧠 Aprendizados
-Este projeto demonstra:
-
-Estruturação de um back end com Flask
-
-Integração de banco de dados com SQLite
-
-Gerenciamento de usuários e atividades
-
-Testes automatizados com Pytest
-
-Envio de e-mails simulados para convites e confirmações
 
 <br>
 
-## 📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+🧠 Key Learnings
+
+<br>
+
+This project demonstrates:
+
+    Structuring a back end with Flask
+
+    Database integration using SQLite
+
+    User and activity management
+
+    Automated testing with Pytest
+
+    Mocked email delivery for invitations and confirmations
+
+<br>
+
+📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
